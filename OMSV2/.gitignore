@@ -1,0 +1,46 @@
+# --- Go build artifacts ---
+/bin/
+/build/
+/*.exe
+/*.exe~
+*.test
+*.out
+
+# --- Go modules ---
+go.sum
+*.mod~
+*.sum~
+
+# --- Go workspace files ---
+go.work
+go.work.sum
+
+# --- Compilados de Protobuf ---
+*.pb.go
+*.pb.gw.go
+*.swagger.json
+
+# --- Archivos de sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Configuración de editores ---
+.idea/
+.vscode/
+*.swp
+
+# --- Variables de entorno ---
+.env
+
+# --- Air live reload (configuraciones de desarrollo) ---
+.air.toml
+
+# --- Carpetas temporales y logs ---
+tmp/
+**/tmp/
+*.log
+*.tmp
+build-errors.log
+
+# --- Railway config (si usas Railway) ---
+railway.json
